@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BunParameterizedTests" time="0.142" tests="24" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BunParameterizedTests" time="0.159" tests="24" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.27_6\bin"/>
-    <property name="sun.java.command" value="C:\Temp\surefire10260486772805039132\surefirebooter-20260104232703732_3.jar C:\Temp\surefire10260486772805039132 2026-01-04T23-27-03_424-jvmRun1 surefire-20260104232703732_1tmp surefire_0-20260104232703732_2tmp"/>
+    <property name="sun.java.command" value="C:\Temp\surefire7651230987922652403\surefirebooter-20260104233308586_3.jar C:\Temp\surefire7651230987922652403 2026-01-04T23-33-08_284-jvmRun1 surefire-20260104233308586_1tmp surefire_0-20260104233308586_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\Practicum\Diplom\2 part\Diplom_1\target\test-classes;E:\Practicum\Diplom\2 part\Diplom_1\target\classes;C:\Users\lexa\.m2\repository\org\mockito\mockito-core\5.20.0\mockito-core-5.20.0.jar;C:\Users\lexa\.m2\repository\net\bytebuddy\byte-buddy\1.17.7\byte-buddy-1.17.7.jar;C:\Users\lexa\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.7\byte-buddy-agent-1.17.7.jar;C:\Users\lexa\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\lexa\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\lexa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Temp\surefire10260486772805039132\surefirebooter-20260104232703732_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Temp\surefire7651230987922652403\surefirebooter-20260104233308586_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.27+6-LTS"/>
@@ -64,26 +64,26 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="getPriceBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, 988]" classname="BunParameterizedTests" time="0.013"/>
+  <testcase name="getPriceBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, 988]" classname="BunParameterizedTests" time="0.01"/>
   <testcase name="getNameBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, 988]" classname="BunParameterizedTests" time="0.0"/>
   <testcase name="getPriceBunParameterizedTest[Тестовые данные: Краторная булка N-200i, 1 255]" classname="BunParameterizedTests" time="0.0"/>
-  <testcase name="getNameBunParameterizedTest[Тестовые данные: Краторная булка N-200i, 1 255]" classname="BunParameterizedTests" time="0.0"/>
+  <testcase name="getNameBunParameterizedTest[Тестовые данные: Краторная булка N-200i, 1 255]" classname="BunParameterizedTests" time="0.001"/>
   <testcase name="getPriceBunParameterizedTest[Тестовые данные: , 988]" classname="BunParameterizedTests" time="0.0"/>
   <testcase name="getNameBunParameterizedTest[Тестовые данные: , 988]" classname="BunParameterizedTests" time="0.0"/>
-  <testcase name="getPriceBunParameterizedTest[Тестовые данные: null, 988]" classname="BunParameterizedTests" time="0.0"/>
+  <testcase name="getPriceBunParameterizedTest[Тестовые данные: null, 988]" classname="BunParameterizedTests" time="0.001"/>
   <testcase name="getNameBunParameterizedTest[Тестовые данные: null, 988]" classname="BunParameterizedTests" time="0.0"/>
   <testcase name="getPriceBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, -988]" classname="BunParameterizedTests" time="0.0"/>
   <testcase name="getNameBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, -988]" classname="BunParameterizedTests" time="0.0"/>
-  <testcase name="getPriceBunParameterizedTest[Тестовые данные: Краторная булка N-200i, 0]" classname="BunParameterizedTests" time="0.0"/>
+  <testcase name="getPriceBunParameterizedTest[Тестовые данные: Краторная булка N-200i, 0]" classname="BunParameterizedTests" time="0.001"/>
   <testcase name="getPriceBunParameterizedTest[Тестовые данные: Краторная булка N-200i, 0]" classname="BunParameterizedTests" time="0.0"/>
   <testcase name="getPriceBunParameterizedTest[Тестовые данные: Краторная булка N-200i, 0]" classname="BunParameterizedTests" time="0.0"/>
   <testcase name="getNameBunParameterizedTest[Тестовые данные: Краторная булка N-200i, 0]" classname="BunParameterizedTests" time="0.0"/>
-  <testcase name="getNameBunParameterizedTest[Тестовые данные: Краторная булка N-200i, 0]" classname="BunParameterizedTests" time="0.002"/>
   <testcase name="getNameBunParameterizedTest[Тестовые данные: Краторная булка N-200i, 0]" classname="BunParameterizedTests" time="0.001"/>
-  <testcase name="getPriceBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, 340 282 346 638 528 860 000 000 000 000 000 000 000]" classname="BunParameterizedTests" time="0.0"/>
+  <testcase name="getNameBunParameterizedTest[Тестовые данные: Краторная булка N-200i, 0]" classname="BunParameterizedTests" time="0.001"/>
+  <testcase name="getPriceBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, 340 282 346 638 528 860 000 000 000 000 000 000 000]" classname="BunParameterizedTests" time="0.001"/>
   <testcase name="getPriceBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, 340 282 346 638 528 860 000 000 000 000 000 000 000]" classname="BunParameterizedTests" time="0.0"/>
   <testcase name="getNameBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, 340 282 346 638 528 860 000 000 000 000 000 000 000]" classname="BunParameterizedTests" time="0.0"/>
-  <testcase name="getNameBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, 340 282 346 638 528 860 000 000 000 000 000 000 000]" classname="BunParameterizedTests" time="0.0"/>
+  <testcase name="getNameBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, 340 282 346 638 528 860 000 000 000 000 000 000 000]" classname="BunParameterizedTests" time="0.001"/>
   <testcase name="getPriceBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, не число]" classname="BunParameterizedTests" time="0.0"/>
   <testcase name="getNameBunParameterizedTest[Тестовые данные: Флюоресцентная булка R2-D3, не число]" classname="BunParameterizedTests" time="0.0"/>
   <testcase name="getPriceBunParameterizedTest[Тестовые данные: #$%^&amp;*, 0]" classname="BunParameterizedTests" time="0.0"/>
