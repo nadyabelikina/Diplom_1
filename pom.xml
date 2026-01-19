@@ -39,6 +39,13 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.7</version>
+                <configuration>
+                    <excludes>
+                        <exclude>praktikum/Database.class</exclude>
+                        <exclude>praktikum/Praktikum.class</exclude>
+                        <!-- Например, если ваш класс Database находится в пакете com.example: -->
+                    </excludes>
+                </configuration>
                 <executions>
                     <execution>
                         <!--id выбираешь самостоятельно-->
