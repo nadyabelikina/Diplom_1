@@ -89,9 +89,9 @@ public class BurgerParameterizedTests {
 
     @Test
     public void addIngredientBurgerTest() {
-        Ingredient newIngredient = mock(Ingredient.class);
+        Ingredient newIngredient = new Ingredient(ingredientType.FILLING,"Плоды Фалленианского дерева", 874.0f);
         burger.addIngredient(newIngredient);
-        Assert.assertTrue(burger.ingredients.contains(mockIngredient));
+        Assert.assertTrue(burger.ingredients.contains(newIngredient));
     }
 
     @Test
@@ -103,7 +103,7 @@ public class BurgerParameterizedTests {
 
     @Test
     public void moveIngredientBurgerTest() {
-        Ingredient anotherIngredient = mock(Ingredient.class);
+        Ingredient anotherIngredient = new Ingredient(ingredientType.FILLING,"Плоды Фалленианского дерева", 874.0f);
         burger.addIngredient(anotherIngredient);
         burger.moveIngredient(1, 0);
         assertEquals(anotherIngredient, burger.ingredients.get(0));
